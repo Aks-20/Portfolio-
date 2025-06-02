@@ -9,8 +9,7 @@ const Hero = () => {
 
   const roles = [
     "Fullstack Developer",
-    "UI/UX Enthusiast", 
-    "Problem Solver",
+    "MERN Stack Enthusiast",
     "Tech Innovator"
   ];
 
@@ -126,7 +125,7 @@ const Hero = () => {
               <div className="group">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 backdrop-blur-sm mb-6">
                   <Sparkles className="w-4 h-4 text-cyan-400 mr-2 animate-spin" />
-                  <span className="text-cyan-400 text-sm font-medium">Available for opportunities</span>
+                 
                 </div>
                 
                 <h2 className="text-xl md:text-2xl font-medium text-cyan-400 mb-4 tracking-wide">
@@ -162,30 +161,7 @@ const Hero = () => {
                 cutting-edge technologies.
               </p>
 
-              {/* Enhanced Buttons */}
-              <div className="flex flex-wrap gap-4 pt-4">
-                <Button 
-                  className="group relative bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white px-8 py-4 text-base font-semibold rounded-xl shadow-lg hover:shadow-cyan-500/25 transform hover:scale-105 transition-all duration-300"
-                  onMouseEnter={() => setIsHovered(true)}
-                  onMouseLeave={() => setIsHovered(false)}
-                >
-                  <span className="relative z-10 flex items-center">
-                    Let's Connect
-                    <Mail className="ml-2 h-5 w-5 group-hover:animate-bounce" />
-                  </span>
-                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-cyan-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </Button>
-                
-                <Button
-                  variant="outline"
-                  className="group border-2 border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 px-8 py-4 text-base font-semibold rounded-xl backdrop-blur-sm transform hover:scale-105 transition-all duration-300"
-                >
-                  <span className="flex items-center">
-                    View Projects
-                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-                  </span>
-                </Button>
-              </div>
+           
 
               {/* Enhanced Social Links */}
               <div className="flex items-center space-x-6 pt-6">
