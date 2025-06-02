@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
     },
     {
       icon: <Twitter className="h-5 w-5" />,
-      href: "#",
+      href: "https://x.com/AkshatGupta_567",
       name: "Twitter",
     },
     {
