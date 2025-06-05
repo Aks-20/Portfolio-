@@ -159,7 +159,7 @@ const Header = () => {
             {/* CTA Button & Mobile Toggle */}
             <div className="flex items-center space-x-4">
               {/* Resume Download Button */}
-            <a href="/public/resume.pdf" download>
+            <a href="/resume.pdf" download>
     <Button
       className="hidden md:flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white px-6 py-2 rounded-xl font-semibold shadow-lg hover:shadow-cyan-500/25 transform hover:scale-105 transition-all duration-300 group"
     >

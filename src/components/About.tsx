@@ -57,7 +57,7 @@ const About: React.FC = () => {
               {/* Resume Download Button */}
               <div className="pt-8">
                 <a
-                  href="/public/resume.pdf"
+                  href="/resume.pdf"
                   download
                   target="_blank"
                   rel="noopener noreferrer"
