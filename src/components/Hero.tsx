@@ -11,7 +11,7 @@ const Hero = () => {
   const roles = [
     "Fullstack Developer",
     "MERN Stack Enthusiast",
-    "Tech Innovator"
+
   ];
 
   const descriptions = [
